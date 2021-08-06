@@ -36,6 +36,12 @@ KTimer is a little tool to execute programs after some time. It allows
 you to enter several tasks and to set a timer for each of them. The
 timers for each task can be started, stopped, changed, or looped.
 
+%description -l pl.UTF-8
+KTimer to mały program użytkowy do uruchamiania innych programów po
+jakimś czasie. Pozwala wprowadzić kilka zadań i ustawić stoper dla
+każdego z nich. Timery dla każdego zadania mogą być startowane,
+zatrzymywane, zmieniane bądź zapętlane.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
