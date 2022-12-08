@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.08.3
+%define		kdeappsver	22.12.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		ktimer
 Summary:	ktimer
 Name:		ka5-%{kaname}
-Version:	22.08.3
+Version:	22.12.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	dc6881a90a5539d909706e2ef2832a2a
+# Source0-md5:	e8b3694347e8fab71e05fdf74a0984bd
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
